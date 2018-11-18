@@ -1,5 +1,5 @@
 # Message Broker faceoff
-#### ActiveMQ | RabbitMQ | Kafka
+### ActiveMQ | RabbitMQ | Kafka
 
 Team ID - c_uparog
 
