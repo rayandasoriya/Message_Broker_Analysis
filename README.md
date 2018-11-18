@@ -43,4 +43,4 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 
 #### GitHub
 
-![Industrial Usage](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/01-IndustUse.jpg =200x120)
+<img src ="https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/01-IndustUse.jpg " width="200" height="200">
