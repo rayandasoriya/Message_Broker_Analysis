@@ -37,12 +37,13 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 * **Bugs and Continuous Inspection**
 	* [FindBugs](http://findbugs.sourceforge.net)
 	* [SonarQube](https://www.sonarqube.org)
-* **Community**
+* **Community and other Metrics**
 	* [GitHub](https://github.com)
 	* [Reddit](https://www.reddit.com)
 	* [StackShare](https://stackshare.io/)
 	* [Stack overflow](https://stackoverflow.com)
 	* [Google Trends](https://trends.google.com/trends/)
+	* [Lines of Code](https://github.com/rayandasoriya/MQTT_Analysis/tree/J/02-GitHubStats/01-LinesOfCode)
 
 
 ### Results
