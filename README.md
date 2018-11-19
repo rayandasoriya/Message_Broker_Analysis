@@ -58,3 +58,11 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 	* These results further concretely help us understand the reason for growing popularity amongst developers and organizations and their tendency of moving towards Kafka, thereby resulting in a slightly higher growth rate in adoption.
 	
 ![Commits Per Year](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/05-Commit_year.jpg)
+
+* Looking at the google internet search for the topics directly related to RabbitMQ, Kafka, and ActiveMQ it can clearly be seen that In the past year, the most popular message queueing service has been Kafka.
+	* This fact can be further supported by the fact that Kafka has the highest number of stars (amongst the three) on Github, translating to very high preference amongst developers.
+* This statistic is important to know, as it can help us with the growth trend towards a particular message queuing broker, which should be higher for Kafka, given its increased popularity amongst developers. 
+	* For example, a comparison is made between the industrial usage of the message queuing broker, as it was in the beginning of the semester and as it can be seen in the image below.
+* As hypothesized, the growth in the number of companies using Kafka has 1% more increase than in RabbitMQ. This has resulted in more tools being developed for the integration with Kafka.
+
+![Combined Statistics](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/08-CombinedDiagram-GIthub.jpeg)
