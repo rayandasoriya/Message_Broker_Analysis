@@ -28,6 +28,8 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 * [Rabbit MQ](http://www.rabbitmq.com)
 * [Apache Kafka](https://kafka.apache.org)
 
+![MQ Services under consideration](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/09-MQ-Logos.jpeg)
+
 ### Resources we have used
 
 * **Performance Testing**
