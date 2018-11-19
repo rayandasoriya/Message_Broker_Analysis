@@ -1,6 +1,9 @@
 # Message Broker faceoff
 ### ActiveMQ | RabbitMQ | Kafka
 
+####CSC 510
+![NC State University](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwir7cnFzeHeAhVnRN8KHZVBA_IQjRx6BAgBEAU&url=https%3A%2F%2Fbrand.ncsu.edu%2Fdownloads%2F&psig=AOvVaw3GOTJnTYaV2yVNJeGO19vy&ust=1542756383391873)
+
 Team ID - c_uparog
 
 #### Team Members 
