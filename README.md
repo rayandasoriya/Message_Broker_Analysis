@@ -1,7 +1,7 @@
 # Message Broker faceoff
 ### ActiveMQ | RabbitMQ | Kafka
 
-####CSC 510
+#### CSC 510
 ![NC State University](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/10-NCSU-Logo.png)
 
 Team ID - c_uparog
@@ -16,7 +16,8 @@ Team ID - c_uparog
 1. [What are message queueing brokers?](https://github.com/rayandasoriya/MQTT_Analysis/tree/J#what-are-message-queueing-brokers)
 2. [Brokers are we comparing](https://github.com/rayandasoriya/MQTT_Analysis/tree/J#brokers-are-we-comparing)
 3. [Resources we have used](https://github.com/rayandasoriya/MQTT_Analysis/tree/J#resources-we-have-used)
-4. Results
+4. [Setting up the environment]()
+5. Results
 	1. [GitHub](https://github.com/rayandasoriya/MQTT_Analysis/tree/J#github)
 
 ### What are message queueing brokers?
@@ -50,6 +51,11 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 	* [Google Trends](https://trends.google.com/trends/)
 	* [Lines of Code](https://github.com/rayandasoriya/MQTT_Analysis/tree/J/02-GitHubStats/01-LinesOfCode)
 
+### Setting up the Environment
+* [Apache ActiveMQ](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/00-ProjectInformation/01-Installation-apacheMQ.pdf)
+* [RabbitMQ](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/00-ProjectInformation/02-Installation-rabbitMQ.pdf)
+* [Apache Kafka](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/00-ProjectInformation/03-Installation-ApacheKafka.pdf)
+* [Installing the Tools](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/00-ProjectInformation/04-Installing-Tools.pdf)
 
 ### Results
 
