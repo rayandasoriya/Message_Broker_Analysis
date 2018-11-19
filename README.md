@@ -24,6 +24,8 @@ Team ID - c_uparog
 
 Message queueing brokers are the so-called *translators* in the world of computer networks that are responsible for translation of messages from the messaging protocol being used by the `sender` to the messaging protocol being used by the `receiver` and are the building blocks of the message-oriented middleware (MOM). 
 
+![Message Broker Diagram](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/11-MessageBroker.jpeg)
+
 ### Brokers are we comparing
 
 There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker#List_of_message_broker_software) out there, however we have chosen three out of the bunch. 
