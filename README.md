@@ -72,3 +72,6 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 * As hypothesized, the growth in the number of companies using Kafka has 1% more increase than in RabbitMQ. This has resulted in more tools being developed for the integration with Kafka.
 
 ![Combined Statistics](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/08-CombinedDiagram-GIthub.jpeg)
+
+#### Performance testing
+
