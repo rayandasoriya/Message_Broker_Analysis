@@ -5,7 +5,7 @@ Team ID - c_uparog
 
 #### Team Members 
 * [Arshdeep Singh Syal](https://github.com/ArshdeepSinghSyal) (asyal) {SonarQube}
-* [Jubeen Shah ](https://github.com/jubeenshah)(jnshah2) {JMeter Testing + GitHub Statistics}
+* [Jubeen Shah ](https://github.com/jubeenshah)(jnshah2) {JMeter Testing + Community Statistics}
 * [Rayan Dasoriya](https://github.com/rayandasoriya) (rdasori) {JMeter Testing}
 * [Sujal](https://github.com/SujalAhrodia) (ssujal) {Gatling Testing}
 
