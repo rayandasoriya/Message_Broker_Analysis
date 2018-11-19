@@ -4,10 +4,10 @@
 Team ID - c_uparog
 
 #### Team Members 
-* [Arshdeep Singh Syal](https://github.com/ArshdeepSinghSyal) (asyal)
-* [Jubeen Shah ](https://github.com/jubeenshah)(jnshah2)
-* [Rayan Dasoriya](https://github.com/rayandasoriya) (rdasori)
-* [Sujal](https://github.com/SujalAhrodia) (ssujal)
+* [Arshdeep Singh Syal](https://github.com/ArshdeepSinghSyal) (asyal) {SonarQube}
+* [Jubeen Shah ](https://github.com/jubeenshah)(jnshah2) {JMeter Testing + GitHub Statistics}
+* [Rayan Dasoriya](https://github.com/rayandasoriya) (rdasori) {JMeter Testing}
+* [Sujal](https://github.com/SujalAhrodia) (ssujal) {Gatling Testing}
 
 ### Table of content
 1. [What are message queueing brokers?](https://github.com/rayandasoriya/MQTT_Analysis/tree/J#what-are-message-queueing-brokers)
