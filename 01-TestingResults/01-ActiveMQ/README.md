@@ -6,7 +6,8 @@
 * Set the properties for JMS Publisher as follows
 
 ![Publisher configuration](./publisher.png)
-	* set the `Text Message` field  as `test1 : $ {__time(,)}`
+	
+* set the `Text Message` field  as `test1 : $ {__time(,)}`
 
 * Set the properties for JMS Subscriber as follows
 
