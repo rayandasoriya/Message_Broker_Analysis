@@ -62,7 +62,7 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 ### Results
 
 #### Performance testing
-
+![Box Plots Combined](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/14-BoxPlotsCompiled-MessageBroker.png)
 #### GitHub
 
 * RabbitMQ is the most popular in the industry, despite Kafka having better performance. 
