@@ -66,7 +66,8 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 ![Box Plots Combined](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/15-BoxPlotsCompiled-MessageBroker.png)
 
 **Latency**
-![Latency](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/16-LatencyBroker.jpg)
+
+<img src="https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/16-LatencyBroker.jpg" height="612.3" width="469.95">
 #### GitHub
 
 * RabbitMQ is the most popular in the industry, despite Kafka having better performance. 
