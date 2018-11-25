@@ -2,7 +2,7 @@
 ### ActiveMQ | RabbitMQ | Kafka
 
 #### CSC 510
-![NC State University](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/10-NCSU-Logo.png)
+![NC State University](./98-Resources/10-NCSU-Logo.png)
 
 Team ID - c_uparog
 
