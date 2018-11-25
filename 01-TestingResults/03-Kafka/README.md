@@ -1,6 +1,6 @@
 # Implementation Details
 
-##Configuring The Producer - Pepper-Box
+## Configuring The Producer - Pepper-Box
  
 To install the plugin, you need to compile [this source code ](https://github.com/GSLabDev/pepper-box/releases)or [download the jar file](https://github.com/raladev/load), then put it in the lib/ext folder and restart JMeter.
  
