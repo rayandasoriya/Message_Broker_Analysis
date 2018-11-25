@@ -14,11 +14,11 @@ Team ID - c_uparog
 
 ### Table of content
 1. [What are message queueing brokers?](#what-are-message-queueing-brokers)
-2. [Brokers are we comparing](https://github.com/rayandasoriya/MQTT_Analysis/tree/J#brokers-are-we-comparing)
-3. [Resources we have used](https://github.com/rayandasoriya/MQTT_Analysis/tree/J#resources-we-have-used)
-4. [Setting up the environment](https://github.com/rayandasoriya/MQTT_Analysis/tree/J#setting-up-the-environment)
+2. [Brokers are we comparing](#brokers-are-we-comparing)
+3. [Resources we have used](#resources-we-have-used)
+4. [Setting up the environment](#setting-up-the-environment)
 5. Results
-	1. [GitHub](https://github.com/rayandasoriya/MQTT_Analysis/tree/J#github)
+	1. [GitHub](#github)
 
 ### What are message queueing brokers?
 
