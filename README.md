@@ -55,10 +55,10 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 	* [Lines of Code](./02-GitHubStats/01-LinesOfCode)
 
 ### Setting up the Environment
-* [Apache ActiveMQ](./00-ProjectInformation/01-Installation-apacheMQ.pdf)
-* [RabbitMQ](./00-ProjectInformation/02-Installation-rabbitMQ.pdf)
-* [Apache Kafka](./00-ProjectInformation/03-Installation-ApacheKafka.pdf)
-* [Installing the Tools](./00-ProjectInformation/04-Installing-Tools.pdf)
+* [Apache ActiveMQ](./00-Prerequisites/01-Installation-apacheMQ.pdf)
+* [RabbitMQ](./00-Prerequisites/02-Installation-rabbitMQ.pdf)
+* [Apache Kafka](./00-Prerequisites/03-Installation-ApacheKafka.pdf)
+* [Installing the Tools](./00-Prerequisites/04-Installing-Tools.pdf)
 
 ### Results
 
