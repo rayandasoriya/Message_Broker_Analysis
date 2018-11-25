@@ -63,10 +63,10 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 ### Results
 
 #### Performance testing
-**Message Throughput comparision**
+##### Message Throughput comparision
 ![Box Plots Combined](./98-Resources/15-BoxPlotsCompiled-MessageBroker.png)
 
-**Latency**
+##### Latency
 ![Latency](./98-Resources/16-LatencyBroker.jpg)
 
 #### GitHub
