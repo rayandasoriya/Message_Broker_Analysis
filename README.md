@@ -13,6 +13,10 @@ The software is designed to be used as a load testing tool for analyzing and mea
 3. Works better with REST APIs
 4. Anticipates slow response times and crashes
 
+[Installation](https://gatling.io/docs/current/installation/#installation)
+
+[Gatling plugins and extensions](https://gatling.io/docs/2.3/extensions/)
+
 Source for plugins:
 >1. [Kafka Producer API](https://github.com/mnogu/gatling-kafka)
 >2. [RabbitMQ API](https://github.com/fhalim/gatling-rabbitmq)
