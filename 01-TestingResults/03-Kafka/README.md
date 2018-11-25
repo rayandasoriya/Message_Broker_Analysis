@@ -50,3 +50,5 @@ To add this element, go to
 	* **message.placeholder.key** - is the message key, which was specified in the previous elements.
 	* **kerberos.auth.enabled, java.security.auth.login.config, java.security.krb5.conf, sasl.kerberos.service.name** - are a field group responsible for the authentication.
  
+### Results
+![](./14-boxplot-Kafka.png)
