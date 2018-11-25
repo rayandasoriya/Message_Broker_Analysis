@@ -1,0 +1,243 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    </head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>2,232 computers found</h1>
+
+    
+
+    <div id="actions">
+        
+         
+
+<form action="/computers" method="GET" >
+    
+            <input type="search" id="searchbox" name="f" value="" placeholder="Filter by computer name...">
+            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+        
+</form>
+
+        
+        <a class="btn success" id="add" href="/computers/new">Add a new computer</a>
+        
+    </div>
+    
+    
+        
+        <table class="computers zebra-striped">
+            <thead>
+                <tr>
+                    
+    <th class="col2 header headerSortUp">
+        <a href="/computers?s=-2">Computer name</a>
+    </th>
+
+                    
+    <th class="col3 header ">
+        <a href="/computers?s=3">Introduced</a>
+    </th>
+
+                    
+    <th class="col4 header ">
+        <a href="/computers?s=4">Discontinued</a>
+    </th>
+
+                    
+    <th class="col5 header ">
+        <a href="/computers?s=5">Company</a>
+    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                        <tr>
+                            <td><a href="/computers/311">ASCI White</a></td>
+                            <td>
+                                01 Jan 2001
+                            </td>
+                            <td>
+                                01 Jan 2006
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/525">ASUS Eee PC 1005PE</a></td>
+                            <td>
+                                01 Jan 2010
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                ASUS
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/302">ASUS Eee PC 701</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/439">ASUS Eee PC 900</a></td>
+                            <td>
+                                01 May 2008
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                ASUS
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/301">ASUS Eee PC 901</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                ASUS
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/330">Acer Extensa</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/331">Acer Extensa 5220</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/543">Acer Iconia</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/152">Acorn Archimedes</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Acorn computer
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/418">Acorn Electron</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination">
+            <ul>
+                
+                    <li class="prev">
+                        <a href="/computers">&larr; Previous</a>
+                    </li> 
+                
+                <li class="current">
+                    <a>Displaying 11 to 20 of 2232</a>
+                </li>
+                
+                    <li class="next">
+                        <a href="/computers?p=2">Next &rarr;</a>
+                    </li> 
+                
+            </ul>
+        </div>
+        
+    
+
+        
+
+        </section>
+        
+    </body>
+</html>
+
+
+            

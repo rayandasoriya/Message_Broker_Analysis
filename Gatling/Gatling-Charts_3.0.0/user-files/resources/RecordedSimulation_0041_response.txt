@@ -1,0 +1,243 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    </head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>2,232 computers found</h1>
+
+    
+
+    <div id="actions">
+        
+         
+
+<form action="/computers" method="GET" >
+    
+            <input type="search" id="searchbox" name="f" value="" placeholder="Filter by computer name...">
+            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+        
+</form>
+
+        
+        <a class="btn success" id="add" href="/computers/new">Add a new computer</a>
+        
+    </div>
+    
+    
+        
+        <table class="computers zebra-striped">
+            <thead>
+                <tr>
+                    
+    <th class="col2 header headerSortUp">
+        <a href="/computers?s=-2">Computer name</a>
+    </th>
+
+                    
+    <th class="col3 header ">
+        <a href="/computers?s=3">Introduced</a>
+    </th>
+
+                    
+    <th class="col4 header ">
+        <a href="/computers?s=4">Discontinued</a>
+    </th>
+
+                    
+    <th class="col5 header ">
+        <a href="/computers?s=5">Company</a>
+    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                        <tr>
+                            <td><a href="/computers/12">Apple III</a></td>
+                            <td>
+                                01 May 1980
+                            </td>
+                            <td>
+                                01 Apr 1984
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/17">Apple III Plus</a></td>
+                            <td>
+                                01 Dec 1983
+                            </td>
+                            <td>
+                                01 Apr 1984
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/8">Apple IIc</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/10">Apple IIc Plus</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/7">Apple IIe</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/13">Apple Lisa</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/403">Apple Network Server</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/298">Apple Newton</a></td>
+                            <td>
+                                01 Jan 1993
+                            </td>
+                            <td>
+                                01 Jan 1998
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/240">Apple PenLite</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/544">Archos 101</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination">
+            <ul>
+                
+                    <li class="prev">
+                        <a href="/computers?p=4">&larr; Previous</a>
+                    </li> 
+                
+                <li class="current">
+                    <a>Displaying 51 to 60 of 2232</a>
+                </li>
+                
+                    <li class="next">
+                        <a href="/computers?p=6">Next &rarr;</a>
+                    </li> 
+                
+            </ul>
+        </div>
+        
+    
+
+        
+
+        </section>
+        
+    </body>
+</html>
+
+
+            

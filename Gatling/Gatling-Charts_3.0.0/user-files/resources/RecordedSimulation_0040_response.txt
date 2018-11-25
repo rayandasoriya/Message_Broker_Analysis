@@ -1,0 +1,243 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    </head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>2,232 computers found</h1>
+
+    
+
+    <div id="actions">
+        
+         
+
+<form action="/computers" method="GET" >
+    
+            <input type="search" id="searchbox" name="f" value="" placeholder="Filter by computer name...">
+            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+        
+</form>
+
+        
+        <a class="btn success" id="add" href="/computers/new">Add a new computer</a>
+        
+    </div>
+    
+    
+        
+        <table class="computers zebra-striped">
+            <thead>
+                <tr>
+                    
+    <th class="col2 header headerSortUp">
+        <a href="/computers?s=-2">Computer name</a>
+    </th>
+
+                    
+    <th class="col3 header ">
+        <a href="/computers?s=3">Introduced</a>
+    </th>
+
+                    
+    <th class="col4 header ">
+        <a href="/computers?s=4">Discontinued</a>
+    </th>
+
+                    
+    <th class="col5 header ">
+        <a href="/computers?s=5">Company</a>
+    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                        <tr>
+                            <td><a href="/computers/76">Amiga 600</a></td>
+                            <td>
+                                01 Mar 1992
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Commodore International
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/411">Amstrad CPC</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Amstrad
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/414">Amstrad CPC 464</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Amstrad
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/412">Amstrad CPC 6128</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Amstrad
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/413">Amstrad CPC 664</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Amstrad
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/365">Analytical engine</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/55">Apple I</a></td>
+                            <td>
+                                01 Apr 1976
+                            </td>
+                            <td>
+                                01 Oct 1977
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/16">Apple II</a></td>
+                            <td>
+                                01 Apr 1977
+                            </td>
+                            <td>
+                                01 Oct 1993
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/11">Apple II Plus</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/9">Apple IIGS</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination">
+            <ul>
+                
+                    <li class="prev">
+                        <a href="/computers?p=3">&larr; Previous</a>
+                    </li> 
+                
+                <li class="current">
+                    <a>Displaying 41 to 50 of 2232</a>
+                </li>
+                
+                    <li class="next">
+                        <a href="/computers?p=5">Next &rarr;</a>
+                    </li> 
+                
+            </ul>
+        </div>
+        
+    
+
+        
+
+        </section>
+        
+    </body>
+</html>
+
+
+            
