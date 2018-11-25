@@ -18,7 +18,8 @@ Team ID - c_uparog
 3. [Resources we have used](#resources-we-have-used)
 4. [Setting up the environment](#setting-up-the-environment)
 5. Results
-	1. [GitHub](#github)
+	1. [Performance testing](#performance-testing)
+	2. [GitHub](#github)
 
 ### What are message queueing brokers?
 
