@@ -24,7 +24,7 @@ Team ID - c_uparog
 
 Message queueing brokers are the so-called *translators* in the world of computer networks that are responsible for translation of messages from the messaging protocol being used by the `sender` to the messaging protocol being used by the `receiver` and are the building blocks of the message-oriented middleware (MOM). 
 
-![Message Broker Diagram](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/11-MessageBroker.png)
+![Message Broker Diagram](./98-Resources/11-MessageBroker.png)
 
 ### Brokers are we comparing
 
@@ -34,7 +34,7 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 * [Rabbit MQ](http://www.rabbitmq.com)
 * [Apache Kafka](https://kafka.apache.org)
 
-![MQ Services under consideration](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/98-Resources/09-MQ-Logos.jpeg)
+![MQ Services under consideration](./98-Resources/09-MQ-Logos.jpeg)
 
 ### Resources we have used
 
@@ -51,13 +51,13 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 	* [StackShare](https://stackshare.io/)
 	* [Stack overflow](https://stackoverflow.com)
 	* [Google Trends](https://trends.google.com/trends/)
-	* [Lines of Code](https://github.com/rayandasoriya/MQTT_Analysis/tree/J/02-GitHubStats/01-LinesOfCode)
+	* [Lines of Code](./02-GitHubStats/01-LinesOfCode)
 
 ### Setting up the Environment
-* [Apache ActiveMQ](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/00-ProjectInformation/01-Installation-apacheMQ.pdf)
-* [RabbitMQ](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/00-ProjectInformation/02-Installation-rabbitMQ.pdf)
-* [Apache Kafka](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/00-ProjectInformation/03-Installation-ApacheKafka.pdf)
-* [Installing the Tools](https://github.com/rayandasoriya/MQTT_Analysis/blob/J/00-ProjectInformation/04-Installing-Tools.pdf)
+* [Apache ActiveMQ](./00-ProjectInformation/01-Installation-apacheMQ.pdf)
+* [RabbitMQ](./00-ProjectInformation/02-Installation-rabbitMQ.pdf)
+* [Apache Kafka](./00-ProjectInformation/03-Installation-ApacheKafka.pdf)
+* [Installing the Tools](./00-ProjectInformation/04-Installing-Tools.pdf)
 
 ### Results
 
