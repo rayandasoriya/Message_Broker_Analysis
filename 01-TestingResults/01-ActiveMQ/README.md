@@ -15,4 +15,6 @@
 
 * Once the above steps are complete, we select `Thread Group` --> `Add` --> `Listener` --> `Graph Results`
 	* Any other 	`Listeners` that would help understanding the data.
+
+![Results.png](./17-TC5.png)
 	
