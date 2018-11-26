@@ -20,9 +20,9 @@ Team ID - c_uparog
 3. [Resources used](#Resources-used)
 4. [Setting up the environment](#setting-up-the-environment)
 5. Results
-  1. [Performance testing](#performance-testing)
-  2. [GitHub](#github)
-
+	1. [Performance testing](#performance-testing)
+	2. [GitHub](#github)
+  
 ### Introduction to message queueing brokers
 
 Message queueing brokers are the so-called *translators* in the world of computer networks that are responsible for translation of messages from the messaging protocol being used by the `sender` to the messaging protocol being used by the `receiver` and are the building blocks of the message-oriented middleware (MOM). 
