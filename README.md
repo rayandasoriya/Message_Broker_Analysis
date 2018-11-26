@@ -97,4 +97,3 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 ![Combined Statistics](./98-Resources/08-CombinedDiagram-GIthub.jpeg)
 
 ### Conclusion
-
