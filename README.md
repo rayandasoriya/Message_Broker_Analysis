@@ -1,5 +1,4 @@
 # Message Broker Analysis
-# Message Broker faceoff
 
 ### ActiveMQ | RabbitMQ | Kafka
 
@@ -74,7 +73,7 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 *  Latency
 ![Latency](./98-Resources/16-LatencyBroker.jpg)
 
-### Errors and Warnings
+#### Errors and Warnings
 #### GitHub
 
 * RabbitMQ is the most popular in the industry, despite Kafka having better performance. 
