@@ -21,6 +21,7 @@ Team ID - c_uparog
 4. [Setting up the environment](#setting-up-the-environment)
 5. Results
 	1. [Performance testing](#performance-testing)
+	2. [Errors and Warnings](#errors-and-warnings)
 	2. [GitHub](#github)
   
 ### Introduction to message queueing brokers
@@ -73,6 +74,7 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 *  Latency
 ![Latency](./98-Resources/16-LatencyBroker.jpg)
 
+### Errors and Warnings
 #### GitHub
 
 * RabbitMQ is the most popular in the industry, despite Kafka having better performance. 
