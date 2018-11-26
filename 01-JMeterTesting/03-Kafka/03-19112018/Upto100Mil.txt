@@ -1,0 +1,25 @@
+Testing Kafka
+
+Throughput Value 100000000 Num-Records: 1000
+1000 records sent, 5681.818182 records/sec (0.05 MB/sec), 2.94 ms avg latency, 151.00 ms max latency, 2 ms 50th, 9 ms 95th, 10 ms 99th, 151 ms 99.9th.
+
+Throughput Value 100000000 Num-Records: 10000
+10000 records sent, 44247.787611 records/sec (0.42 MB/sec), 1.85 ms avg latency, 148.00 ms max latency, 2 ms 50th, 4 ms 95th, 5 ms 99th, 9 ms 99.9th.
+
+Throughput Value 100000000 Num-Records: 100000
+100000 records sent, 211416.490486 records/sec (2.02 MB/sec), 1.35 ms avg latency, 151.00 ms max latency, 1 ms 50th, 2 ms 95th, 4 ms 99th, 5 ms 99.9th.
+
+Throughput Value 100000000 Num-Records: 1000000
+1000000 records sent, 514138.817481 records/sec (4.90 MB/sec), 1.56 ms avg latency, 160.00 ms max latency, 1 ms 50th, 4 ms 95th, 6 ms 99th, 10 ms 99.9th.
+
+Throughput Value 100000000 Num-Records: 10000000
+4956704 records sent, 991340.8 records/sec (9.45 MB/sec), 1.6 ms avg latency, 148.0 max latency.
+10000000 records sent, 1248907.206195 records/sec (11.91 MB/sec), 1.19 ms avg latency, 148.00 ms max latency, 1 ms 50th, 4 ms 95th, 8 ms 99th, 11 ms 99.9th.
+
+Throughput Value 100000000 Num-Records: 100000000
+6609576 records sent, 1321915.2 records/sec (12.61 MB/sec), 0.8 ms avg latency, 154.0 max latency.
+9184460 records sent, 1836892.0 records/sec (17.52 MB/sec), 0.7 ms avg latency, 21.0 max latency.
+9240093 records sent, 1848018.6 records/sec (17.62 MB/sec), 0.7 ms avg latency, 12.0 max latency.
+9230315 records sent, 1846063.0 records/sec (17.61 MB/sec), 0.7 ms avg latency, 13.0 max latency.
+7326317 records sent, 1465263.4 records/sec (13.97 MB/sec), 1.2 ms avg latency, 22.0 max latency.
+9105134 records sent, 1821026.8 records/sec (17.37 MB/sec), 0.7 ms avg latency, 10.0 max latency.

@@ -1,0 +1,4 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+AMQP Publisher,1000,0,0,1,0.24,0.000%,45.26321,0.93,0.00,21.0
+AMQP Consumer,1000,1003,1000,1006,1.39,100.000%,43.31254,0.00,0.00,.0
+TOTAL,2000,501,0,1006,501.62,50.000%,86.60633,0.89,0.00,10.5
