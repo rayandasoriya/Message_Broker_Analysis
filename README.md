@@ -14,21 +14,21 @@ Team ID - c_uparog
 * [Sujal](https://github.com/SujalAhrodia) (ssujal) {Gatling Testing}
 
 ### Table of content
-1. [What are message queueing brokers?](#what-are-message-queueing-brokers)
-2. [Brokers are we comparing](#brokers-are-we-comparing)
-3. [Resources we have used](#resources-we-have-used)
+1. [Introduction to message queueing brokers](#Introduction-to-message-queueing-brokers)
+2. [Brokers compared](#Brokers-compared)
+3. [Resources used](#Resources-used)
 4. [Setting up the environment](#setting-up-the-environment)
 5. Results
 	1. [Performance testing](#performance-testing)
 	2. [GitHub](#github)
 
-### What are message queueing brokers?
+### Introduction to message queueing brokers
 
 Message queueing brokers are the so-called *translators* in the world of computer networks that are responsible for translation of messages from the messaging protocol being used by the `sender` to the messaging protocol being used by the `receiver` and are the building blocks of the message-oriented middleware (MOM). 
 
 ![Message Broker Diagram](./98-Resources/11-MessageBroker.png)
 
-### Brokers are we comparing
+### Brokers compared
 
 There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker#List_of_message_broker_software) out there, however we have chosen three out of the bunch. 
 
@@ -38,7 +38,7 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 
 ![MQ Services under consideration](./98-Resources/09-MQ-Logos.jpeg)
 
-### Resources we have used
+### Resources used
 
 * **Performance Testing**
 	* [Jmeter](https://jmeter.apache.org)
