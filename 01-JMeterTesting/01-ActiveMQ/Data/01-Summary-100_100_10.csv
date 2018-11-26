@@ -1,0 +1,5 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Thread Group:JMS Publisher,10000,4,1,19,1.68,0.000%,94.83077,0.00,0.00,.0
+Thread Group:JMS Subscriber,9947,31,1,2006,60.72,0.060%,92.58708,1.99,0.00,22.0
+Thread Group:,1000,0,0,0,0.00,100.000%,.00000,0.00,0.00,526.0
+TOTAL,20947,16,0,2006,44.06,4.803%,10273.17312,356.73,0.00,35.6
