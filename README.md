@@ -1,5 +1,5 @@
-
 # Message Broker Analysis
+# Message Broker faceoff
 
 ### ActiveMQ | RabbitMQ | Kafka
 
@@ -20,8 +20,8 @@ Team ID - c_uparog
 3. [Resources used](#Resources-used)
 4. [Setting up the environment](#setting-up-the-environment)
 5. Results
-	1. [Performance testing](#performance-testing)
-	2. [GitHub](#github)
+1. [Performance testing](#performance-testing)
+2. [GitHub](#github)
 
 ### Introduction to message queueing brokers
 
@@ -42,30 +42,32 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 ### Resources used
 
 * **Performance Testing**
-	* [Jmeter](https://jmeter.apache.org)
-	* [Gatling](https://gatling.io)
-	* [Kafka native performance tools](https://github.com/kafka-dev/kafka/blob/master/bin/kafka-producer-perf-test.sh)
+* [Jmeter](https://jmeter.apache.org)
+* [Gatling](https://gatling.io)
+* [Kafka native performance tools](https://github.com/kafka-dev/kafka/blob/master/bin/kafka-producer-perf-test.sh)
 * **Bugs and Continuous Inspection**
-	* [FindBugs](http://findbugs.sourceforge.net)
-	* [SonarQube](https://www.sonarqube.org)
+* [FindBugs](http://findbugs.sourceforge.net)
+* [SonarQube](https://www.sonarqube.org)
 * **Community and other Metrics**
-	* [GitHub](https://github.com)
-	* [Reddit](https://www.reddit.com)
-	* [StackShare](https://stackshare.io/)
-	* [Stack overflow](https://stackoverflow.com)
-	* [Google Trends](https://trends.google.com/trends/)
-	* [Lines of Code](./02-GitHubStats/01-LinesOfCode)
+* [GitHub](https://github.com)
+* [Reddit](https://www.reddit.com)
+* [StackShare](https://stackshare.io/)
+* [Stack overflow](https://stackoverflow.com)
+* [Google Trends](https://trends.google.com/trends/)
+* [Lines of Code](./02-GitHubStats/01-LinesOfCode)
 
 ### Setting up the Environment
 * [Apache ActiveMQ](./00-Prerequisites/01-Installation-apacheMQ.pdf)
 * [RabbitMQ](./00-Prerequisites/02-Installation-rabbitMQ.pdf)
 * [Apache Kafka](./00-Prerequisites/03-Installation-ApacheKafka.pdf)
+* [Gatling Installation](https://gatling.io/docs/current/installation/#installation)
+* [Gatling Plugins and Extensions](https://gatling.io/docs/2.3/extensions/)
 * [Installing the Tools](./00-Prerequisites/04-Installing-Tools.pdf)
 
 ### Results
 
 #### Performance testing
-* Message Throughput comparision
+* Message Throughput Comparision
 ![Box Plots Combined](./98-Resources/15-BoxPlotsCompiled-MessageBroker.png)
 
 *  Latency
@@ -74,25 +76,25 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 #### GitHub
 
 * RabbitMQ is the most popular in the industry, despite Kafka having better performance. 
-	* This can be because, Kafka was late to the market, and by then rabbitMQ had already taken over the market share from activeMQ
-		* This can be because a majority of the companies that were previously using ActiveMQ found it very complex. 
+* This can be because, Kafka was late to the market, and by then rabbitMQ had already taken over the market share from activeMQ
+* This can be because a majority of the companies that were previously using ActiveMQ found it very complex. 
 * The switching costs associated to rabbitMQ are very low
-	* It is simple, flexible, and has several tool integrations available
+* It is simple, flexible, and has several tool integrations available
 
 ![Industrial Usage](./98-Resources/01-IndustUse.jpg)
 
 * Based on commits per year for each of the message queuing services, it can be seen that the community for ActiveMQ is becoming less and less active over the years, being the most active in the year 2006, and the least active being this year (2018), which could be correlated with the decline in popularity of the broker amongst developers and organizations alike.
 * RabbitMQ’s community seemed to be the most active during the years 2009 through 2016. After which it was swiftly taken over by Kafka.
-	* It is interesting to know that the number of commits per year for Kafka increased at an average rate of **61%** from `2011 to 2017`
-	* For the same period, RabbitMQ had a growth rate **-12%**, with activeMQ having a growth rate of **-6%**.
-	* These results further concretely help us understand the reason for growing popularity amongst developers and organizations and their tendency of moving towards Kafka, thereby resulting in a slightly higher growth rate in adoption.
-	
+* It is interesting to know that the number of commits per year for Kafka increased at an average rate of **61%** from `2011 to 2017`
+* For the same period, RabbitMQ had a growth rate **-12%**, with activeMQ having a growth rate of **-6%**.
+* These results further concretely help us understand the reason for growing popularity amongst developers and organizations and their tendency of moving towards Kafka, thereby resulting in a slightly higher growth rate in adoption.
+
 ![Commits Per Year](./98-Resources/05-Commit_year.jpg)
 
 * Looking at the google internet search for the topics directly related to RabbitMQ, Kafka, and ActiveMQ it can clearly be seen that In the past year, the most popular message queueing service has been Kafka.
-	* This fact can be further supported by the fact that Kafka has the highest number of stars (amongst the three) on Github, translating to very high preference amongst developers.
+* This fact can be further supported by the fact that Kafka has the highest number of stars (amongst the three) on Github, translating to very high preference amongst developers.
 * This statistic is important to know, as it can help us with the growth trend towards a particular message queuing broker, which should be higher for Kafka, given its increased popularity amongst developers. 
-	* For example, a comparison is made between the industrial usage of the message queuing broker, as it was in the beginning of the semester and as it can be seen in the image below.
+* For example, a comparison is made between the industrial usage of the message queuing broker, as it was in the beginning of the semester and as it can be seen in the image below.
 * As hypothesized, the growth in the number of companies using Kafka has 1% more increase than in RabbitMQ. This has resulted in more tools being developed for the integration with Kafka.
 
 ![Combined Statistics](./98-Resources/08-CombinedDiagram-GIthub.jpeg)
