@@ -43,19 +43,19 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 ### Resources used
 
 * **Performance Testing**
-* [Jmeter](https://jmeter.apache.org)
-* [Gatling](https://gatling.io)
-* [Kafka native performance tools](https://github.com/kafka-dev/kafka/blob/master/bin/kafka-producer-perf-test.sh)
+	* [Jmeter](https://jmeter.apache.org)
+	* [Gatling](https://gatling.io)
+	* [Kafka native performance tools](https://github.com/kafka-dev/kafka/blob/master/bin/kafka-producer-perf-test.sh)
 * **Bugs and Continuous Inspection**
-* [FindBugs](http://findbugs.sourceforge.net)
-* [SonarQube](https://www.sonarqube.org)
+	* [FindBugs](http://findbugs.sourceforge.net)
+	* [SonarQube](https://www.sonarqube.org)
 * **Community and other Metrics**
-* [GitHub](https://github.com)
-* [Reddit](https://www.reddit.com)
-* [StackShare](https://stackshare.io/)
-* [Stack overflow](https://stackoverflow.com)
-* [Google Trends](https://trends.google.com/trends/)
-* [Lines of Code](./02-GitHubStats/01-LinesOfCode)
+	* [GitHub](https://github.com)
+	* [Reddit](https://www.reddit.com)
+	* [StackShare](https://stackshare.io/)
+	* [Stack overflow](https://stackoverflow.com)
+	* [Google Trends](https://trends.google.com/trends/)
+	* [Lines of Code](./02-GitHubStats/01-LinesOfCode)
 
 ### Setting up the Environment
 * [Apache ActiveMQ](./00-Prerequisites/01-Installation-apacheMQ.pdf)
