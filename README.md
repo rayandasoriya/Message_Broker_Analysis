@@ -74,10 +74,10 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 ![Latency](./98-Resources/16-LatencyBroker.jpg)
 
 #### Bugs and Errors Inspection
-*SonarLint
+* SonarLint
 ![SonarLint](./98-Resources/17-SonarLint-Comparison.png)
 
-*FindBugs
+* FindBugs
 ![FindBugst](./98-Resources/18-FindBugs.png)
 
 #### Community and other Metrics
