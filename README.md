@@ -71,10 +71,11 @@ In this section we briefly outline the steps needed to carry out the installatio
 * [Installing the Tools](./00-Prerequisites/04-Installing-Tools.pdf)
 
 ### Implementation Details
-For specific configuration of the message brokers with JMeter, you can click on the following links to get a detailed description of the steps followed.
+For specific configuration of the message brokers with JMeter, you can click on the following links to get a detailed description of the steps we followed to setup the producers and consumers with JMeter.
 * [ActiveMQ](./01-JMeterTesting/01-ActiveMQ/README.md)
 * [RabbitMQ](./01-JMeterTesting/02-RabbitMQ/README.md)
 * [Kafka](./01-JMeterTesting/03-Kafka/README.md)
+
 
 
 ### Results
@@ -85,6 +86,15 @@ For specific configuration of the message brokers with JMeter, you can click on 
 
 *  Latency
 ![Latency](./98-Resources/16-LatencyBroker.jpg)
+
+* RabbitMQ Testing using [johnlonganecker/rabbitmq-performance-app](https://github.com/johnlonganecker/rabbitmq-performance-app) repository
+![RabbitMQ with johnlonganecker/rabbitmq-performance-app -1](./01-JMeterTesting/02-RabbitMQ/Screen%20Shot%202018-09-30%20at%209.56.09%20AM.png)
+![RabbitMQ with johnlonganecker/rabbitmq-performance-app -2](./01-JMeterTesting/02-RabbitMQ/Screen%20Shot%202018-09-30%20at%209.57.14%20AM.png)
+
+* Kafka testing using [custom scripts](./01-JMeterTesting/03-Kafka/testKafka.sh)
+	* You can find the associated [log file results](./master/01-JMeterTesting/03-Kafka/03-19112018/Upto100Mil.txt) and [here](./01-JMeterTesting/03-Kafka/03-13102018/KafkaTestLog.txt)
+	* The below image gives is one of the plot for the above log files, the rest of the images can be found [here](./01-JMeterTesting/03-Kafka/Images)
+![Kafka Results](./98-Resources/22-Kafka10000000.png)
 
 #### Bugs and Errors Inspection
 * SonarLint
