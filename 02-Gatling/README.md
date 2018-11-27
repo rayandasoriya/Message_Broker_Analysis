@@ -1,11 +1,11 @@
-# Message Broker Analysis
+# Gatling
 
 Using Gatling to stress test Kafka and RabbitMQ
 
 ![alt text](https://gatling.io/wp-content/uploads/2016/12/cropped-Gatling-logo-BAT-2.png)
 
-# [Introduction](https://gatling.io/docs/current/quickstart/)
-The software is designed to be used as a load testing tool for analyzing and measuring the performance of a variety of services, with a focus on web applications.
+# Introduction
+[Gatling](https://gatling.io/docs/current/quickstart/) is designed to be used as a load testing tool for analyzing and measuring the performance of a variety of services, with a focus on web applications.
 
 ### Reasons for choosing Gatling:
 1. Enhanced user experience
