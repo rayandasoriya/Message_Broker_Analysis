@@ -2,7 +2,7 @@
 
 ### ActiveMQ | RabbitMQ | Kafka
 
-#### CSC 510
+#### CSC 510 - Software Engineering
 ![NC State University](./98-Resources/10-NCSU-Logo.png)
 
 Team ID - c_uparog
@@ -18,10 +18,12 @@ Team ID - c_uparog
 2. [Brokers compared](#Brokers-compared)
 3. [Resources used](#Resources-used)
 4. [Setting up the environment](#setting-up-the-environment)
-5. Results
+5. [Results](#results)
 	1. [Performance testing](#performance-testing)
 	2. [Bugs and errors Inspection](#bugs-and-errors-inspection)
-	2. [Community and other Metrics](#Community-and-other-Metrics)
+	3. [Community and other Metrics](#Community-and-other-Metrics)
+6. [Challenges](#challenges)
+6. [Conclusion](#conclusion)
   
 ### Introduction to message queueing brokers
 
@@ -106,4 +108,11 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 
 ![Combined Statistics](./98-Resources/08-CombinedDiagram-GIthub.jpeg)
 
+### Challenges
+* According to our understanding, gatling was not able to find the “ClockSingleton” class in current release of Kafka server. We have raised the same issue on github repository of the plugin we were trying to implement but haven’t been able to resolve it yet. Moreover, one possible way of implementing both the servers could be hosting an API on the servers and then exposing them using gatling to test, which we did not implement.
+* The extension was built on gatling 2.2 and the current version is 3.0 series. Moreover, the Apache Kafka server needed for the plugin to build is 2.10-0.10. We were able to start the latest 2.12 release of kafka. Same was the case with RabbitMQ
+* The version compatibility between SBT, Java, Scala and the producer API was extremely tedious and it was quite cumbersome. 
+
 ### Conclusion
+RabbitMQ is currently the most favored amongst the industry, but there is shift in affinity towards Kafka, both from the perspective of developers and the industry adoption. The rate at which Kafka is growing is much higher than RabbitMQ, which in contrast seems to be slowly declining its growth rate. ActiveMQ is the least favored from both the developers and industrial perspective given the low industry adoption and developers retention rate.
+Also, talking about the performance, Apache Kafka gave the best performance with a high throughput and a low latency rate.
