@@ -115,12 +115,12 @@ In this section we briefly outline a few results that we gathered from studying 
 * This fact can be further supported by the fact that Kafka has the highest number of stars (amongst the three) on Github, translating to very high preference amongst developers.
 * This statistic is important to know, as it can help us with the growth trend towards a particular message queuing broker, which should be higher for Kafka, given its increased popularity amongst developers. 
 * For example, a comparison is made between the industrial usage of the message queuing broker, as it was in the beginning of the semester and as it can be seen in the image below.
-* As hypothesized, the growth in the number of companies using Kafka has **1%**more increase than in RabbitMQ. This has resulted in more tools being developed for the integration with Kafka.
+* As hypothesized, the growth in the number of companies using Kafka has **1%** more increase than in RabbitMQ. This has resulted in more tools being developed for the integration with Kafka.
 
 ![Combined Statistics](./98-Resources/08-CombinedDiagram-GIthub.jpeg)
 
 ### Challenges
-* According to our understanding, gatling was not able to find the `ClockSingleton` class in current release of Kafka server. We have raised the same issue on github repository of the plugin we were trying to implement but haven’t been able to resolve it yet. Moreover, one possible way of implementing both the servers could be hosting an API on the servers and then exposing them using gatling to test, which we did not implement.
+* According to our understanding, gatling was not able to find the `ClockSingleton` class in current release of Kafka server. We have raised the same issue on github repository of the plugin we were trying to implement but haven’t been able to resolve it yet. Moreover, one possible way of implementing both the servers could be hosting an API on the servers and then exposing them using gatling to test, which we did not implement due to time constraints.
 * The extension was built on `gatling 2.2` and the current version is `3.0` series. Moreover, the Apache Kafka server needed for the plugin to build is `0.10`. We were able to start the latest `2.12` release of kafka. Same was the case with RabbitMQ
 * The version compatibility between SBT, Java, Scala and the producer API was extremely tedious and it was quite cumbersome. 
 
