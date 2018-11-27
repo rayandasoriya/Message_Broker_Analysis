@@ -20,8 +20,8 @@ Team ID - c_uparog
 4. [Setting up the environment](#setting-up-the-environment)
 5. Results
 	1. [Performance testing](#performance-testing)
-	2. [Errors and Warnings](#errors-and-warnings)
-	2. [GitHub](#github)
+	2. [Bugs and errors Inspection](#bugs-and-errors-inspection)
+	2. [Community and other Metrics](#Community-and-other-Metrics)
   
 ### Introduction to message queueing brokers
 
@@ -45,7 +45,7 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 	* [Jmeter](https://jmeter.apache.org)
 	* [Gatling](https://gatling.io)
 	* [Kafka native performance tools](https://github.com/kafka-dev/kafka/blob/master/bin/kafka-producer-perf-test.sh)
-* **Bugs and Continuous Inspection**
+* **Bugs and Errors Inspection**
 	* [FindBugs](http://findbugs.sourceforge.net)
 	* [SonarQube](https://www.sonarqube.org)
 * **Community and other Metrics**
@@ -66,15 +66,21 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 
 ### Results
 
-#### Performance testing
+#### Performance Testing
 * Message Throughput Comparision
 ![Box Plots Combined](./98-Resources/15-BoxPlotsCompiled-MessageBroker.png)
 
 *  Latency
 ![Latency](./98-Resources/16-LatencyBroker.jpg)
 
-#### Errors and Warnings
-#### GitHub
+#### Bugs and Errors Inspection
+*SonarLint
+![SonarLint](./98-Resources/17-SonarLint-Comparison.png)
+
+*FindBugs
+![FindBugst](./98-Resources/18-FindBugs.png)
+
+#### Community and other Metrics
 
 * RabbitMQ is the most popular in the industry, despite Kafka having better performance. 
 * This can be because, Kafka was late to the market, and by then rabbitMQ had already taken over the market share from activeMQ
