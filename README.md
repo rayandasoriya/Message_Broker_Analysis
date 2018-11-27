@@ -3,6 +3,7 @@
 ### ActiveMQ | RabbitMQ | Kafka
 
 #### CSC 510 - Software Engineering
+
 ![NC State University](./98-Resources/10-NCSU-Logo.png)
 
 Team ID - c_uparog
