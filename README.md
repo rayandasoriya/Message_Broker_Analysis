@@ -82,7 +82,7 @@ For specific configuration of the message brokers with JMeter, you can click on 
 
 #### Performance Testing
 * Message Throughput Comparision
-![Box Plots Combined](./98-Resources/15-BoxPlotsCompiled-MessageBroker.png)
+![Box Plots Combined](./98-Resources/24-RabbitMQApacheMQKafkaCombinedBoxblot.png)
 
 *  Latency
 ![Latency](./98-Resources/16-LatencyBroker.jpg)
