@@ -19,7 +19,8 @@ Team ID - c_uparog
 2. [Brokers compared](#Brokers-compared)
 3. [Resources used](#Resources-used)
 4. [Setting up the environment](#setting-up-the-environment)
-5. [Results](#results)
+5. [Implementation Details](#implementation-details)
+6. [Results](#results)
 	1. [Performance testing](#performance-testing)
 	2. [Bugs and errors Inspection](#bugs-and-errors-inspection)
 	3. [Community and other Metrics](#Community-and-other-Metrics)
@@ -60,12 +61,21 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 	* [Lines of Code](./02-GitHubStats/01-LinesOfCode)
 
 ### Setting up the Environment
+
+In this section we briefly outline the steps needed to carry out the installation for the respective message brokers and tools. Clicking on each link would take you to the series of steps (compiled in a .pdf in this repo) that we performed to install them.
 * [Apache ActiveMQ](./00-Prerequisites/01-Installation-apacheMQ.pdf)
 * [RabbitMQ](./00-Prerequisites/02-Installation-rabbitMQ.pdf)
 * [Apache Kafka](./00-Prerequisites/03-Installation-ApacheKafka.pdf)
 * [Gatling Installation](https://gatling.io/docs/current/installation/#installation)
 * [Gatling Plugins and Extensions](https://gatling.io/docs/2.3/extensions/)
 * [Installing the Tools](./00-Prerequisites/04-Installing-Tools.pdf)
+
+### Implementation Details
+For specific configuration of the message brokers with JMeter, you can click on the following links to get a detailed description of the steps followed.
+* [ActiveMQ](./01-JMeterTesting/01-ActiveMQ/README.md)
+* [RabbitMQ](./01-JMeterTesting/02-RabbitMQ/README.md)
+* [Kafka](./01-JMeterTesting/03-Kafka/README.md)
+
 
 ### Results
 
@@ -81,10 +91,10 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 ![SonarLint](./98-Resources/17-SonarLint-Comparison.png)
 
 * FindBugs
-![FindBugst](./98-Resources/18-FindBugs.png)
+![FindBugs](./98-Resources/18-FindBugs.png)
 
 #### Community and other Metrics
-
+In this section we briefly outline a few results that we gathered from studying the community as stated in [this section](#Resources-used), however, the full documentation can be found [here](./04-GitHubStats/%23Documentation-GitHub%20and%20Other%20stats.pdf).
 * RabbitMQ is the most popular in the industry, despite Kafka having better performance. 
 * This can be because, Kafka was late to the market, and by then rabbitMQ had already taken over the market share from activeMQ
 * This can be because a majority of the companies that were previously using ActiveMQ found it very complex. 
@@ -115,5 +125,7 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 * The version compatibility between SBT, Java, Scala and the producer API was extremely tedious and it was quite cumbersome. 
 
 ### Conclusion
-RabbitMQ is currently the most favored amongst the industry, but there is shift in affinity towards Kafka, both from the perspective of developers and the industry adoption. The rate at which Kafka is growing is much higher than RabbitMQ, which in contrast seems to be slowly declining its growth rate. ActiveMQ is the least favored from both the developers and industrial perspective given the low industry adoption and developers retention rate.
-Also, talking about the performance, Apache Kafka gave the best performance with a high throughput and a low latency rate.
+RabbitMQ is currently the most favored amongst the industry, but there is a shift in affinity towards Kafka, both from the perspective of developers and the industry adoption. The rate at which Kafka is growing is much higher than RabbitMQ, which in contrast seems to be slowly declining its growth rate. ActiveMQ is the least favored from both the developers and industrial perspective given the low industry adoption and developers retention rate. So, if a new developer wishes to contribute to a community, we would recommend contributing to the Kafka community, because of its high rate of activity, retention, support and overall clarity in the documentation. If however, a developer wants to start learning about message brokers, Message Oriented Middleware, and its implementation we personally found ActiveMQ to be a good starting point and then transitioning towards Kafka. RabbitMQ would require a higher learning curve if the developer is unfamiliar with Erlang.
+
+
+Talking about the performance, Apache Kafka gave the best performance with a very high throughput and a low latency rate. ActiveMQ is preferred over Kafka when traditional enterprise messaging is taken into consideration, however, RabbitMQ does a much better job at throughput, latency and overall community support than ActiveMQ. Kafka, because of its low latency, and very high throughput, fault-tolerance, and its highly distributed architecture is most useful in stream processing, event sourcing, commit log and log aggregation, and traditional messaging. RabbitMQ would be more useful in pub-sub messaging, request-response messaging, and also act as an underlaying layer for IoT applications. Hence, depending on the specific use-case you can choose either RabbitMQ or Kafka
