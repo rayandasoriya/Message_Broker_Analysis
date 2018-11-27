@@ -92,7 +92,7 @@ For specific configuration of the message brokers with JMeter, you can click on 
 ![RabbitMQ with johnlonganecker/rabbitmq-performance-app -2](./01-JMeterTesting/02-RabbitMQ/Screen%20Shot%202018-09-30%20at%209.57.14%20AM.png)
 
 * Kafka testing using [custom scripts](./01-JMeterTesting/03-Kafka/testKafka.sh)
-	* You can find the associated log file results [here](./01-JMeterTesting/03-Kafka/03-19112018/Upto100Mil.txt) and [here](./01-JMeterTesting/03-Kafka/03-13102018/KafkaTestLog.txt)
+	* You can find the associated log file results [here](./01-JMeterTesting/03-Kafka/03-19112018/Upto10Mil.txt) and [here](./01-JMeterTesting/03-Kafka/03-13102018/KafkaTestLog.txt)
 	* The below image gives is one of the plot for the above log files, the rest of the images can be found [here](./01-JMeterTesting/03-Kafka/Images)
 ![Kafka Results](./98-Resources/22-Kafka10000000.jpg)
 
