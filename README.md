@@ -16,13 +16,13 @@ Team ID - c_uparog
 
 ### Table of content
 1. [Introduction](#Introduction)
-2. [Brokers compared](#Brokers-compared)
-3. [Resources used](#Resources-used)
-4. [Setting up the environment](#setting-up-the-environment)
+2. [Brokers Compared](#Brokers-compared)
+3. [Resources Used](#Resources-used)
+4. [Setting up the Environment](#setting-up-the-environment)
 5. [Implementation Details](#implementation-details)
 6. [Results](#results)
-    1. [Performance testing](#performance-testing)
-    2. [Bugs and errors Inspection](#bugs-and-errors-inspection)
+    1. [Performance Testing](#performance-testing)
+    2. [Bugs and Errors Inspection](#bugs-and-errors-inspection)
     3. [Community and other Metrics](#Community-and-other-Metrics)
 6. [Challenges](#challenges)
 6. [Conclusion](#conclusion)
@@ -33,32 +33,32 @@ Message queueing brokers are the so-called *translators* in the world of compute
 
 ![Message Broker Diagram](./98-Resources/11-MessageBroker.png)
 
-### Brokers compared
+### Brokers Compared
 
 There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker#List_of_message_broker_software) out there, however, we have chosen three out of the bunch. 
 
 * [Apache ActiveMQ](http://activemq.apache.org)
-* [Rabbit MQ](http://www.rabbitmq.com)
+* [RabbitMQ](http://www.rabbitmq.com)
 * [Apache Kafka](https://kafka.apache.org)
 
 ![MQ Services under consideration](./98-Resources/09-MQ-Logos.jpeg)
 
-### Resources used
+### Resources Used
 
 * **Performance Testing**
-* [Jmeter](https://jmeter.apache.org)
-* [Gatling](https://gatling.io)
-* [Kafka native performance tools](https://github.com/kafka-dev/kafka/blob/master/bin/kafka-producer-perf-test.sh)
+    * [Jmeter](https://jmeter.apache.org)
+    * [Gatling](https://gatling.io)
+    * [Kafka native performance tools](https://github.com/kafka-dev/kafka/blob/master/bin/kafka-producer-perf-test.sh)
 * **Bugs and Errors Inspection**
-* [FindBugs](http://findbugs.sourceforge.net)
-* [SonarLint](https://www.sonarlint.org)
+    * [FindBugs](http://findbugs.sourceforge.net)
+    * [SonarLint](https://www.sonarlint.org)
 * **Community and other Metrics**
-* [GitHub](https://github.com)
-* [Reddit](https://www.reddit.com)
-* [StackShare](https://stackshare.io/)
-* [Stack overflow](https://stackoverflow.com)
-* [Google Trends](https://trends.google.com/trends/)
-* [Lines of Code](./02-GitHubStats/01-LinesOfCode)
+    * [GitHub](https://github.com)
+    * [Reddit](https://www.reddit.com)
+    * [StackShare](https://stackshare.io/)
+    * [Stack overflow](https://stackoverflow.com)
+    * [Google Trends](https://trends.google.com/trends/)
+    * [Lines of Code](./02-GitHubStats/01-LinesOfCode)
 
 ### Setting up the Environment
 
@@ -72,9 +72,9 @@ In this section, we briefly outline the steps needed to carry out the installati
 
 ### Implementation Details
 For specific configuration of the message brokers with JMeter, you can click on the following links to get a detailed description of the steps we followed to setup the producers and consumers with JMeter.
-* [ActiveMQ](./01-JMeterTesting/01-ActiveMQ/README.md)
+* [Apache ActiveMQ](./01-JMeterTesting/01-ActiveMQ/README.md)
 * [RabbitMQ](./01-JMeterTesting/02-RabbitMQ/README.md)
-* [Kafka](./01-JMeterTesting/03-Kafka/README.md)
+* [Apache Kafka](./01-JMeterTesting/03-Kafka/README.md)
 
 
 
