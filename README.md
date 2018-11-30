@@ -21,12 +21,12 @@ Team ID - c_uparog
 4. [Setting up the environment](#setting-up-the-environment)
 5. [Implementation Details](#implementation-details)
 6. [Results](#results)
-	1. [Performance testing](#performance-testing)
-	2. [Bugs and errors Inspection](#bugs-and-errors-inspection)
-	3. [Community and other Metrics](#Community-and-other-Metrics)
+1. [Performance testing](#performance-testing)
+2. [Bugs and errors Inspection](#bugs-and-errors-inspection)
+3. [Community and other Metrics](#Community-and-other-Metrics)
 6. [Challenges](#challenges)
 6. [Conclusion](#conclusion)
-  
+
 ### Introduction
 
 Message queueing brokers are the so-called *translators* in the world of computer networks that are responsible for the translation of messages from the messaging protocol being used by the `sender` to the messaging protocol being used by the `receiver` and are the building blocks of the message-oriented middleware (MOM). 
@@ -46,19 +46,19 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 ### Resources used
 
 * **Performance Testing**
-	* [Jmeter](https://jmeter.apache.org)
-	* [Gatling](https://gatling.io)
-	* [Kafka native performance tools](https://github.com/kafka-dev/kafka/blob/master/bin/kafka-producer-perf-test.sh)
+* [Jmeter](https://jmeter.apache.org)
+* [Gatling](https://gatling.io)
+* [Kafka native performance tools](https://github.com/kafka-dev/kafka/blob/master/bin/kafka-producer-perf-test.sh)
 * **Bugs and Errors Inspection**
-	* [FindBugs](http://findbugs.sourceforge.net)
-	* [SonarLint](https://www.sonarlint.org)
+* [FindBugs](http://findbugs.sourceforge.net)
+* [SonarLint](https://www.sonarlint.org)
 * **Community and other Metrics**
-	* [GitHub](https://github.com)
-	* [Reddit](https://www.reddit.com)
-	* [StackShare](https://stackshare.io/)
-	* [Stack overflow](https://stackoverflow.com)
-	* [Google Trends](https://trends.google.com/trends/)
-	* [Lines of Code](./02-GitHubStats/01-LinesOfCode)
+* [GitHub](https://github.com)
+* [Reddit](https://www.reddit.com)
+* [StackShare](https://stackshare.io/)
+* [Stack overflow](https://stackoverflow.com)
+* [Google Trends](https://trends.google.com/trends/)
+* [Lines of Code](./02-GitHubStats/01-LinesOfCode)
 
 ### Setting up the Environment
 
@@ -92,8 +92,8 @@ For specific configuration of the message brokers with JMeter, you can click on 
 ![RabbitMQ with johnlonganecker/rabbitmq-performance-app -2](./01-JMeterTesting/02-RabbitMQ/Screen%20Shot%202018-09-30%20at%209.57.14%20AM.png)
 
 * Kafka testing using [custom scripts](./01-JMeterTesting/03-Kafka/testKafka.sh)
-	* You can find the associated log file results [here](./01-JMeterTesting/03-Kafka/03-19112018/Upto10Mil.txt) and [here](./01-JMeterTesting/03-Kafka/03-13102018/KafkaTestLog.txt)
-	* The below image is one of the plots for the above log files, the rest of the images can be found [here](./01-JMeterTesting/03-Kafka/Images)
+* You can find the associated log file results [here](./01-JMeterTesting/03-Kafka/03-19112018/Upto10Mil.txt) and [here](./01-JMeterTesting/03-Kafka/03-13102018/KafkaTestLog.txt)
+* The below image is one of the plots for the above log files, the rest of the images can be found [here](./01-JMeterTesting/03-Kafka/Images)
 ![Kafka Results](./98-Resources/22-Kafka10000000.jpg)
 
 #### Bugs and Errors Inspection
