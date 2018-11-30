@@ -21,9 +21,9 @@ Team ID - c_uparog
 4. [Setting up the environment](#setting-up-the-environment)
 5. [Implementation Details](#implementation-details)
 6. [Results](#results)
-1. [Performance testing](#performance-testing)
-2. [Bugs and errors Inspection](#bugs-and-errors-inspection)
-3. [Community and other Metrics](#Community-and-other-Metrics)
+    1. [Performance testing](#performance-testing)
+    2. [Bugs and errors Inspection](#bugs-and-errors-inspection)
+    3. [Community and other Metrics](#Community-and-other-Metrics)
 6. [Challenges](#challenges)
 6. [Conclusion](#conclusion)
 
