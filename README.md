@@ -58,7 +58,7 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
     * [StackShare](https://stackshare.io/)
     * [Stack overflow](https://stackoverflow.com)
     * [Google Trends](https://trends.google.com/trends/)
-    * [Lines of Code](./02-GitHubStats/01-LinesOfCode)
+    * [Lines of Code](./04-GitHubStats/01-LinesOfCode)
 
 ### Setting up the Environment
 
