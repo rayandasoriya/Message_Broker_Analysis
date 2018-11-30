@@ -56,13 +56,16 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
     * [GitHub](https://github.com)
     * [Reddit](https://www.reddit.com)
     * [StackShare](https://stackshare.io/)
-    * [Stack overflow](https://stackoverflow.com)
+    * [Stack Overflow](https://stackoverflow.com)
     * [Google Trends](https://trends.google.com/trends/)
     * [Lines of Code](./04-GitHubStats/01-LinesOfCode)
 
 ### Setting up the Environment
 
-In this section, we briefly outline the steps needed to carry out the installation for the respective message brokers and tools. Clicking on each link would take you to the series of steps (compiled in a .pdf in this repo) that we performed to install them.
+
+In this section, we briefly outline the steps needed to carry out the installation for the respective message brokers and tools. Clicking on each link would take you to the series of steps (compiled in a `.pdf` in this repo) that we performed to install them. Please note that we used the following configuration on our end, while performing the tests. 
+`MacBook Pro, running macOS Mojave Version 10.14.2 Beta with a 2.7 GHz Intel Core i7 processor with 16 GB 2133 MHz LPDDR4 memory`
+
 * [Apache ActiveMQ](./00-Prerequisites/01-Installation-apacheMQ.pdf)
 * [RabbitMQ](./00-Prerequisites/02-Installation-rabbitMQ.pdf)
 * [Apache Kafka](./00-Prerequisites/03-Installation-ApacheKafka.pdf)
@@ -104,7 +107,7 @@ For specific configuration of the message brokers with JMeter, you can click on 
 ![FindBugs](./98-Resources/18-FindBugs.png)
 
 #### Community and other Metrics
-In this section we briefly outline a few results that we gathered from studying the community as stated in [the `Resources Used` section](#Resources-used), however, the full documentation can be found [here](./04-GitHubStats/%23Documentation-GitHub%20and%20Other%20stats.pdf).
+In this section we briefly outline a few results that we gathered from studying the community as stated in the [`Resources Used`](#Resources-used) section, however, the full documentation can be found [here](./04-GitHubStats/%23Documentation-GitHub%20and%20Other%20stats.pdf).
 * RabbitMQ is the most popular in the industry, despite Kafka having better performance. 
 * This can be because, Kafka was late to the market, and by then RabbitMQ had already taken over the market share from ActiveMQ
 * This can be because a majority of the companies that were previously using ActiveMQ found it very complex. 
