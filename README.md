@@ -64,6 +64,7 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
 
 
 In this section, we briefly outline the steps needed to carry out the installation for the respective message brokers and tools. Clicking on each link would take you to the series of steps (compiled in a `.pdf` in this repo) that we performed to install them. Please note that we used the following configuration on our end, while performing the tests. 
+
 `MacBook Pro, running macOS Mojave Version 10.14.2 Beta with a 2.7 GHz Intel Core i7 processor with 16 GB 2133 MHz LPDDR4 memory`
 
 * [Apache ActiveMQ](./00-Prerequisites/01-Installation-apacheMQ.pdf)
