@@ -54,6 +54,7 @@ There are [several message brokers](https://en.wikipedia.org/wiki/Message_broker
     * [SonarLint](https://www.sonarlint.org)
 * **Community and other Metrics**
     * [GitHub](https://github.com)
+    * [GitStats](http://gitstats.sourceforge.net)
     * [Reddit](https://www.reddit.com)
     * [StackShare](https://stackshare.io/)
     * [Stack Overflow](https://stackoverflow.com)
@@ -144,4 +145,4 @@ RabbitMQ is currently the most favored amongst the industry, but there is a shif
 
 Talking about the performance, Apache Kafka gave the best performance with a very high throughput and a low latency rate. ActiveMQ is preferred over Kafka when traditional enterprise messaging is taken into consideration, however, RabbitMQ does a much better job at throughput, latency and overall community support than ActiveMQ. Kafka, because of its low latency, and very high throughput, fault-tolerance, and its highly distributed architecture is most useful in stream processing, event sourcing, commit log and log aggregation, and traditional messaging. RabbitMQ would be more useful in pub-sub messaging, request-response messaging, and also act as an underlaying layer for IoT applications. Hence, depending on the specific use-case you can choose either RabbitMQ or Kafka.
 
-You can view the [Detailed Report](./c_uparog_DetailedReport.pdf) for more comprehensive information about the project. Also, you can view the [Project Report](./c_uparogReport_IEEE%20Format.pdf) for a concise summary of the comparative analysis of the message brokers. Finally, the [presentation](http://tiny.cc/csc510_final_c_uparog) is linked for you reference.
+You can view the [Detailed Report](./c_uparog_DetailedReport.pdf) for more comprehensive information about the project. Also, you can view the [Project Report](./c_uparogReport_IEEE%20Format.pdf) for a concise summary of the comparative analysis of the message brokers. Finally, the [presentation](http://tiny.cc/csc510_final_c_uparog) is linked for your reference.
